@@ -2,6 +2,8 @@
 
 A drop-in replacement for some features of Go's standard `unicode` package.
 
+[![Build Status](https://travis-ci.org/martingallagher/runes.svg)](https://travis-ci.org/martingallagher/runes) [![GoDoc](https://godoc.org/github.com/martingallagher/runes?status.svg)](https://godoc.org/github.com/martingallagher/runes) [![Go Report Card](https://goreportcard.com/badge/github.com/martingallagher/runes)](https://goreportcard.com/report/github.com/martingallagher/runes) [![license](https://img.shields.io/github/license/martingallagher/runes.svg)](https://github.com/martingallagher/runes/blob/master/LICENSE)
+
 This package works by computing an array jump table for fast Unicode property lookup.
 
 Drawbacks include:
