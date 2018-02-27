@@ -11,6 +11,8 @@ Drawbacks include:
 - The startup cost of computing the array of properties
 - Memory consumption of ~25Mb on x86-64
 
+This package isn't a replacement for the standard `unicode` package; it's recommended this package is trialled when performance is a priority; e.g. mass-text normalisation and segmentation. For input containing highly randomised data across the Unicode spectrum it will perform worse than the standard `unicode` package due to cache locality. As always: measure.
+
 ## Benchmarks
 
 Use `make bench` to run the benchmarks.
